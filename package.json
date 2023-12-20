@@ -1,0 +1,13 @@
+{
+  "name": "gun-unbuild",
+  "version": "0.0.0",
+  "description": "unbuild gun on install",
+  "scripts": {
+    "postinstall": "node post-install.js"
+  },
+  "author": "",
+  "dependencies": {
+    "gun": "*",
+    "uglify-js": "^3.17.4"
+  }
+}
